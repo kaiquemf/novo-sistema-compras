@@ -16,6 +16,9 @@ public class CasesParaLogin {
 				break;
 				
 			case 3:
+				System.out.println("Todos os itens do carrinho serão perdidos,"
+						+ " tem certeza que deseja sair? (digite sim ou não)");
+				SistemaSaida.sistemaDeSaidaLogin();
 				break;
 
 			default:
